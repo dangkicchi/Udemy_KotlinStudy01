@@ -1,11 +1,17 @@
 fun main() {
-    println("Hello World Kotlin!")
+    println("Hello World Kotlin!!")
 
-    var a = 1000
-    var b = 1_000
-    var c = 0x3E8
+    var n: Int = 10
+    var nn = 100
 
-    println(a)
-    println(b)
-    println(c)
+    //すべての型は any型を継承している。
+    var nnnn: Any
+    nnnn = 1
+    nnnn = "foo"
+
+
+//    出来ない
+//    var nnn
+//    nnn =9
+
 }
